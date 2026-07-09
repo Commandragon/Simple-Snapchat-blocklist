@@ -1,11 +1,11 @@
-! Snapchat Anti-Addiction, Ads & Trackers Filter
+! =========================================================
+! Snapchat Detox Filter for AdGuard Home
+! =========================================================
 
-! Spotlight
+! --- 1. Spotlight, Discover & Shows (Kills the addictive feeds) ---
+||discover.snapchat.com^
 ||spotlight.snapchat.com^
 ||spotlight-api.snapchat.com^
-
-! Discover & Stories
-||discover.snapchat.com^
 ||story.snapchat.com^
 ||stories.snapchat.com^
 ||premium-stories.snapchat.com^
@@ -13,17 +13,22 @@
 ||shows.snapchat.com^
 ||snaporiginals.snapchat.com^
 ||storysharing.snapchat.com^
-||snapchat-compat-discover-us-east-1.snapchat.com^
-
-! Publisher / content feeds
-||snappublisher.snapchat.com^
 ||publisher-sc.snapchat.com^
+||snappublisher.discover.snapchat.com^
 
-! Recommendations / trends
-||trends.snapchat.com^
-||trends.api.snapchat.com^
+! --- 2. Algorithmic API Strike (Blocks feed generation algorithms) ---
+||*-gcp.api.snapchat.com^
+@@||aws-proxy-gcp.api.snapchat.com^
+@@||us-east4-gcp.api.snapchat.com^
+@@||us-central1-gcp.api.snapchat.com^
 
-! Ads & Business Marketing
+! --- 3. Games & Minis (Kills the entire gaming ecosystem) ---
+||cognac.snapchat.com^
+||minis.snapchat.com^
+||games.snapchat.com^
+||airtime.games.snapchat.com^
+
+! --- 4. Snap-Specific Ads (Fills any gaps left by HaGeZi/OISD) ---
 ||ads.snapchat.com^
 ||adsapi.snapchat.com^
 ||adsapi2.snapchat.com^
@@ -31,40 +36,5 @@
 ||adsapi4.snapchat.com^
 ||adsapimus.snapchat.com^
 ||ads-preprod.snapchat.com^
-||ad-center.snapchat.com^
-||ad-preview.snapchat.com^
-||advertising.snapchat.com^
+||snappublisher.snapchat.com^
 ||learn.ads.snapchat.com^
-||marketingapi.snapchat.com^
-||businessapi.snapchat.com^
-||direct-response-gcp.api.snapchat.com^
-
-! Tracking / analytics
-||app-analytics.snapchat.com^
-||app-analytics-v2.snapchat.com^
-||app-analytics-dev.snapchat.com^
-||server-analytics.snapchat.com^
-||rtam-collector.snapchat.com^
-||attribution-shadow.snapchat.com^
-||click.snapchat.com^
-
-! Games / Minis
-||minis.snapchat.com^
-||games.snapchat.com^
-||airtime.games.snapchat.com^
-||cognac.snapchat.com^
-
-! Maps / location features
-||map.snapchat.com^
-||maps.snapchat.com^
-||places.snapchat.com^
-||geofilters.snapchat.com^
-
-! Lenses (optional)
-||lens.snapchat.com^
-||my-lenses.snapchat.com^
-||lensstudio.snapchat.com^
-||lenstudio.snapchat.com^
-
-! My AI Chatbot (optional - remove the exclamation mark below to activate)
-! ||ai.snapchat.com^
