@@ -1,0 +1,52 @@
+! Snapchat anti-Shorts / anti-Discover filter
+
+! Spotlight
+||spotlight.snapchat.com^
+||spotlight-api.snapchat.com^
+
+! Discover stories
+||discover.snapchat.com^
+||story.snapchat.com^
+||stories.snapchat.com^
+||premium-stories.snapchat.com^
+||pro-stories.snapchat.com^
+||shows.snapchat.com^
+||snaporiginals.snapchat.com^
+
+! Publisher / content feeds
+||snappublisher.snapchat.com^
+||publisher-sc.snapchat.com^
+
+! Recommendations / trends
+||trends.snapchat.com^
+||trends.api.snapchat.com^
+
+! Ads
+||ads.snapchat.com^
+||adsapi.snapchat.com^
+||adsapi2.snapchat.com^
+||adsapi3.snapchat.com^
+||adsapi4.snapchat.com^
+||advertising.snapchat.com^
+||learn.ads.snapchat.com^
+
+! Tracking / analytics
+||app-analytics.snapchat.com^
+||app-analytics-v2.snapchat.com^
+||server-analytics.snapchat.com^
+||rtam-collector.snapchat.com^
+||attribution-shadow.snapchat.com^
+
+! Games / Minis
+||minis.snapchat.com^
+||games.snapchat.com^
+||airtime.games.snapchat.com^
+
+! Maps / location features
+||map.snapchat.com^
+||maps.snapchat.com^
+
+! Lenses (optional)
+||lens.snapchat.com^
+||my-lenses.snapchat.com^
+||lensstudio.snapchat.com^
