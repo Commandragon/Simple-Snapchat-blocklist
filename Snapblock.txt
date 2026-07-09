@@ -1,10 +1,10 @@
-! Snapchat anti-Shorts / anti-Discover filter
+! Snapchat Anti-Addiction, Ads & Trackers Filter
 
 ! Spotlight
 ||spotlight.snapchat.com^
 ||spotlight-api.snapchat.com^
 
-! Discover stories
+! Discover & Stories
 ||discover.snapchat.com^
 ||story.snapchat.com^
 ||stories.snapchat.com^
@@ -12,6 +12,8 @@
 ||pro-stories.snapchat.com^
 ||shows.snapchat.com^
 ||snaporiginals.snapchat.com^
+||storysharing.snapchat.com^
+||snapchat-compat-discover-us-east-1.snapchat.com^
 
 ! Publisher / content feeds
 ||snappublisher.snapchat.com^
@@ -21,32 +23,48 @@
 ||trends.snapchat.com^
 ||trends.api.snapchat.com^
 
-! Ads
+! Ads & Business Marketing
 ||ads.snapchat.com^
 ||adsapi.snapchat.com^
 ||adsapi2.snapchat.com^
 ||adsapi3.snapchat.com^
 ||adsapi4.snapchat.com^
+||adsapimus.snapchat.com^
+||ads-preprod.snapchat.com^
+||ad-center.snapchat.com^
+||ad-preview.snapchat.com^
 ||advertising.snapchat.com^
 ||learn.ads.snapchat.com^
+||marketingapi.snapchat.com^
+||businessapi.snapchat.com^
+||direct-response-gcp.api.snapchat.com^
 
 ! Tracking / analytics
 ||app-analytics.snapchat.com^
 ||app-analytics-v2.snapchat.com^
+||app-analytics-dev.snapchat.com^
 ||server-analytics.snapchat.com^
 ||rtam-collector.snapchat.com^
 ||attribution-shadow.snapchat.com^
+||click.snapchat.com^
 
 ! Games / Minis
 ||minis.snapchat.com^
 ||games.snapchat.com^
 ||airtime.games.snapchat.com^
+||cognac.snapchat.com^
 
 ! Maps / location features
 ||map.snapchat.com^
 ||maps.snapchat.com^
+||places.snapchat.com^
+||geofilters.snapchat.com^
 
 ! Lenses (optional)
 ||lens.snapchat.com^
 ||my-lenses.snapchat.com^
 ||lensstudio.snapchat.com^
+||lenstudio.snapchat.com^
+
+! My AI Chatbot (optional - remove the exclamation mark below to activate)
+! ||ai.snapchat.com^
